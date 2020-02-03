@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+}
+
+
+.add-value {
+  margin: 20px 10px;
+  padding: 0 30px;
+}
+
+.header{
+    background-color: #fc6f03;
+}
+
+.header a{
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+.input-field {
+  margin-bottom: 30px;
+  margin: 0 auto;
+}
+
+#header-img{
+    height: 130px;
+    width: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+section{
+    background-color: #f1f1f1;
+}
+
+#login-form {
+  margin-top: 50px;
+  padding: 10px 300px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+#choose-form {
+  margin-top: 50px;
+  padding: 10px 300px;
+  
+}
+
+#kylo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#kylo .form-control {
+  width: 360px;
+}
+
+.display-3 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.display-4 {
+  margin: 0 auto;
+  text-align: center;
+}
+#choose-form .btn {
+  display: block;
+}
+
+.anal {
+  margin: 60px auto;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.header{
+  background-color: #fc6f03;
+}
+
+.header a{
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+
+img{
+  height: 130px;
+  width: 110px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  background-color: #f1f1f1;
+}
+
+.text1{
+    width: 60%;
+}
+
+.form1{
+    padding-right: 20px;
+}
+
+#vol{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#vol2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#vol3{
+  display: flex;
+  justify-content: space-between;
+}
+
+#vol2 p{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+#vol3 pre{
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+/*background image*/
+.head{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/pic3.jpeg") ;
+  background-size: cover;
+  background-position: center;
+font-family: sans-serif;
+  position: relative;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.stat1{
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.stat2{
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+
+.container{
+  margin-top: 70px;
+}
+
+#waste{
+  margin-left: 10%;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+#icons .sub-icons {
+  color: #ccc;
+  font-size: 2em;
+  opacity: 0.9;
+  display: flex;
+}
+
+#icons .icon-text {
+  width: 100px;
+}
+
+#icons .icon-holder {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 32px;
+  border-radius: 50%;
+}
+
+#pts{
+  margin-left: 20px;
+}
+
+
+footer{
+position: relative;
+bottom: 0;
+}
+
+@media (max-height:800px){
+footer { position: static; }
+header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+background-color: #2c292f;
+box-sizing: border-box;
+width: 100%;
+text-align: left;
+font: bold 16px sans-serif;
+padding: 50px 50px 60px 50px;
+margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+display: inline-block;
+vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+width: 30%;
+}
+
+.footer-distributed h3{
+color:  #ffffff;
+font: normal 36px 'Cookie', cursive;
+margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+width: 30%;
+}
+
+.footer-distributed h3 span{
+color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+color:  #ffffff;
+margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+display:inline-block;
+line-height: 1.8;
+text-decoration: none;
+color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+color:  #8f9296;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+background-color:  #33383b;
+color: #ffffff;
+font-size: 25px;
+width: 38px;
+height: 38px;
+border-radius: 50%;
+text-align: center;
+line-height: 42px;
+margin: 10px 15px;
+vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+font-size: 17px;
+line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+display: inline-block;
+color: #ffffff;
+vertical-align: middle;
+margin:0;
+}
+
+.footer-distributed .footer-center p span{
+display:block;
+font-weight: normal;
+font-size:14px;
+line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+color:  #e0ac1c;
+text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+line-height: 20px;
+color:  #92999f;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+display: block;
+color:  #ffffff;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+display: inline-block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+background-color:  #33383b;
+border-radius: 2px;
+
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+line-height: 35px;
+
+margin-right: 3px;
+margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.footer-distributed .footer-center i{
+  margin-left: 0;
+}
+
+}
+
+.container h1{
+  text-align: center;
+}
+
+.signIn {
+  display: block;
+  margin-top: 30px;
+}
