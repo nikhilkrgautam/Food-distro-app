@@ -8,7 +8,6 @@ import Firebase, { FirebaseProvider } from './firebase'
 
 
 
-
 function App() {
   return (
     <Router basename={process.env.REACT_APP_BASENAME || ""}>
