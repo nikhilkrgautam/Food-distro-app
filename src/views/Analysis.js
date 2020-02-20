@@ -13,7 +13,6 @@ class Analysis extends React.Component {
       data: [5, 2, 7, 1, 1, 3, 4, 9]
     }
   }
-
   
 
   componentDidMount() {
